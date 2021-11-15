@@ -24,13 +24,14 @@
       h1{
         font-family: 'Road Rage', cursive;
         color: white;
+        font-size: 6em;
       }
     </style>
   </head>
 
   <body>
 
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-warning">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img src="image1.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
