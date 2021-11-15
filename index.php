@@ -10,7 +10,7 @@
     <!-- Polices -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 
     <title>SalamecheGit</title>
@@ -18,18 +18,65 @@
     <style media="screen">
       body{
         font-family: 'Roboto Mono', monospace;
+        background-color: black;
       }
 
       h1{
-        font-family: 'Great Vibes', cursive;
+        font-family: 'Road Rage', cursive;
+        color: white;
+        font-size: 6em;
       }
     </style>
-
-
-
   </head>
+
   <body>
-    <h1 class="text-center">SalamecheGit</h1>
+
+        <nav class="navbar navbar-light bg-warning">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="image1.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+              <strong>Salamèche</strong>
+            </a>
+          </div>
+        </nav>
+
+
+
+        <div class="container">
+
+          <h1 class="text-center">SalamecheGit</h1>
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="image2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image3.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="image4.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+    </div>
+
+
 
 
 
