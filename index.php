@@ -13,6 +13,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
 
+    <!-- Icônes bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+
     <title>SalamecheGit</title>
 
     <style media="screen">
@@ -40,6 +43,17 @@
         margin-right: auto;
       }
 
+
+
+      footer{
+        height: 6em;
+        display: flex;
+      }
+
+      i{
+        justify-content: center;
+      }
+
     </style>
   </head>
 
@@ -58,7 +72,7 @@
 
         <div class="container">
 
-          <h1 class="text-center">SalamecheGit</h1>
+          <h1 class="text-center">Salamèche</h1>
 
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -120,8 +134,40 @@
             <br>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
+
+          <br>
+          <br>
+
+          <div class="">
+            <form>
+                <div class="mb-3 mx-5">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3 mx-5">
+                  <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 mx-5 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">J'accepte de devenir le dresseur d'un Salamèche !</label>
+                </div>
+                <button type="submit" class="btn btn-warning">C'est parti !</button>
+          </form>
+        </div>
+
     </div>
 
+    <br>
+    <br>
+
+    <footer class="bg-warning">
+      <div class="">
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-twitter"></i>
+      </div>
+    </footer>
 
 
 
