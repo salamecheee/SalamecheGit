@@ -47,11 +47,12 @@
 
       footer{
         height: 6em;
-        display: flex;
       }
 
-      i{
+      .icones {
+        display: flex;
         justify-content: center;
+        align-items: center;
       }
 
     </style>
@@ -162,10 +163,10 @@
     <br>
 
     <footer class="bg-warning">
-      <div class="">
-        <i class="bi bi-facebook"></i>
-        <i class="bi bi-instagram"></i>
-        <i class="bi bi-twitter"></i>
+      <div class="icones">
+        <i class="my-4 mx-2 bi bi-facebook"></i>
+        <i class="my-4 mx-2 bi bi-instagram"></i>
+        <i class="my-4 mx-2 bi bi-twitter"></i>
       </div>
     </footer>
 
